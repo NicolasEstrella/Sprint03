@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 3 Web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand text-light" href="#">The Famous</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Robô
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#alpha5">Alpha 5</a></li>
+                            <li><a class="dropdown-item" href="#arma">Arma</a></li>
+                            <li><a class="dropdown-item" href="#hardware">Hardware</a></li>
+                            <li><a class="dropdown-item" href="#videos">Vídeos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#fiapNext">FIAP Next</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#cadastro">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim Navbar  -->
+
+
+    <!-- apresentação robô  -->
+
+    <div class="d-flex align-items-center justify-content-center flex-column">
+        <div id="carouselExampleIndicators" class="carousel slide col-12" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/Carousel/robo1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Carousel/robo2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Carousel/robo3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Carousel/robo4.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Carousel/robo5.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h2 class="text-center text-black display-3 my-4" id="alpha5">Alpha 5</h2>
+        <p class="text-black lead col-10 col-lg-6 fs-4">A nossa equipe, The Famous, após receber a projetou o robô que
+            pode ser visto acima, primeiramente nós pensamos no nome do projeto e, por ser um robô, escolhemos Alpha 5
+            para fazer uma homenagem ao famoso robô ajudante da série de televisão 'Power Rangers', desenho que teve um
+            sucesso único e que carrega um ar de nostalgia para nós. Após isso, tivemos que pensar em como o robô seria
+            feito para que ele pudesse participar da RoboCup, para isso nós vimos alguns vídeos das competições
+            anteriores e nos inspiramos na ideia de utilizar leques como armas que, quando ativadas, protegem o nosso
+            robô pela lateral, além de ser um perigo constante para o robô adversário.</p>
+    </div>
+
+    <!-- fim apresentação robô  -->
+
+    <!-- sobre a arma  -->
+    <div class="container-fluid bg-dark px-5" id="arma">
+        <div class="row my-5">
+            <div class="col-sm-12 col-md-6 my-5">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/A5LET8rdJ1Q" title="YouTube video"></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <h2 class="text-light display-5">Sobre a arma</h2>
+                <p class="lead text-center my-5 text-light">A arma do ALPHA 5 é acionada através da captação de
+                    movimento de sensores, a partir disso, os dois leques posicionados a parte superior do robô são
+                    acionados e se abrem, defendendo toda a parte superior do robô e, com o auxílio de alfinetes
+                    colados em sua ponta, se torna uma arma com objetivo de estourar o balão adversário.</p>
+            </div>
+        </div>
+    </div>
+    <!-- fim sobre a arma  -->
+
+    <!-- hardware  -->
+    <h2 class="text-black text-center display-3 my-5" id="hardware">Hardware do Robô</h2>
+
+    <div class="container-fluid pb-3 row">
+        <!-- 1o. accordion -->
+        <!-- 1o. item accordion  -->
+        <div class="col-sm-12 col-md-6 accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Arduino Uno
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <img src="./images/Hardware/arduino" class="card-img-top w-50 mx-auto" alt="Arduino Uno">
+                            <div class="card-body">
+                                <p class="card-text">Esta sendo utilizado um Arduino UNO. Ele está armazenando todo o
+                                    código (Linguagem C), que é responsável pelo
+                                    funcionamento dos Servos Motores e dos motores da roda. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2o. item accordion  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Shields
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="row">
+                                <img src="./images/Hardware/shield" class="card-img-top w-50 col-md-12 col-lg-6"
+                                    alt="Shield">
+                                <img src="./images/Hardware/shield_bluetooth"
+                                    class="card-img-top w-50 col-md-12 col-lg-6" alt="Shield Bluetooth">
+                                <div class="card-body">
+                                    <p class="card-text">Este shield está acoplado junto do Arduino e serve para receber
+                                        conexões nas suas portas de entradas.
+                                        Já o outro é um Módulo Bluetooth, o qual é utilizado para que haja conexão entre
+                                        o
+                                        celular e o robô.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3o. item accordion  -->
+            <div class="accordion-item mb-5">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Bateria
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <img src="./images/Hardware/bateria" class="card-img-top w-50 mx-auto" alt="Bateria">
+                            <div class="card-body">
+                                <p class="card-text">Com 6 espaços para pilha, tem a função de dar energia para o robô.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fim 1o. accordion -->
+        <!-- 2o. accordion -->
+        <div class="col-sm-12 col-md-6 accordion accordion-flush" id="accordionFlushExample1">
+            <!-- 4o. item accordion  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Servo Motor
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample1">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <img src="./images/Hardware/servo_motor" class="card-img-top w-50 mx-auto"
+                                alt="Servo Motor">
+                            <div class="card-body">
+                                <p class="card-text">São utilizados dois servos motores para que seja possivel o sistema
+                                    de acionamento das armas (leques)
+                                    do robô</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5o. item accordion  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Motor e Rodas
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample1">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <img src="./images/Hardware/motor-com-roda" class="card-img-top w-50 mx-auto"
+                                alt="Motor e Rodas">
+                            <div class="card-body">
+                                <p class="card-text">Tem a função de movimentar/direcionar o robô</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 6o. item accordion  -->
+            <div class="accordion-item mb-5">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Sensor
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample1">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <img src="./images/Hardware/sensor" class="card-img-top w-50 mx-auto" alt="Sensor">
+                            <div class="card-body">
+                                <p class="card-text">Acionam os Servos Motores que ativam a arma.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim 2o. accordion  -->
+    <!-- fim hardware  -->
+
+    <!-- seção de vídeos  -->
+    <div class="container-fluid bg-dark p-5">
+        <h2 class="text-light text-center display-3" id="videos">Vídeos</h2>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="ratio ratio-16x9 mb-4">
+                    <iframe src="https://www.youtube.com/embed/geeF0hhkUWc" title="YouTube video"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/8XVllqILsTw" title="YouTube video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim seção de vídeos  -->
+
+    <!-- seção de apresentação  -->
+    <div class="container">
+        <h2 class="display-3 text-black my-5 text-center" id="equipe">Sobre a equipe</h2>
+        <div class="row d-flex align-items-center justify-content-center">
+            <!-- 1o. card  -->
+            <div class="col-10 col-md-3 card shadow">
+                <img src="./images/Equipe/Pedro" class="card-img-top mt-2"
+                    alt="Imagem do criador e organizador Pedro P. Teixeira" style="height: 35vh;">
+                <div class="card-body">
+                    <h3 class="display-6 fs-5 fw-semibold text-center">Pedro P. Teixeira</h3>
+                    <p class="card-text text-center">Criador e organizador do projeto 'Alpha 5'</p>
+                </div>
+            </div>
+            <!-- fim 1o. card  -->
+
+            <!-- 2o. card  -->
+            <div class="col-10 col-md-3 card mx-5 my-3 shadow">
+                <img src="./images/Equipe/Nick" class="card-img-top mt-2"
+                    alt="Imagem do criador e organizador Nicolas E. Porciuncula" style="height: 35vh;">
+                <div class="card-body">
+                    <h3 class="display-6 fs-5 fw-semibold text-center">Nicolas E. Porciuncula</h3>
+                    <p class="card-text text-center">Criador e organizador do projeto 'Alpha 5'</p>
+                </div>
+            </div>
+            <!-- fim 2o. card  -->
+
+            <!-- 3o. card  -->
+            <div class="col-10 col-md-3 card shadow">
+                <img src="./images/Equipe/Gui" class="card-img-top mt-2"
+                    alt="Imagem do criador e organizador Guilherme C. Barreiro" style="height: 35vh;">
+                <div class="card-body">
+                    <h3 class="display-6 fs-5 fw-semibold text-center">Guilherme C. Barreiro</h3>
+                    <p class="card-text text-center">Criador e organizador do projeto 'Alpha 5'</p>
+                </div>
+            </div>
+            <!-- fim 3o. card  -->
+        </div>
+    </div>
+    <!-- fim seção de apresentação  -->
+
+    <!-- seção apresentação fiap next e robocup  -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row mt-3 pb-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h2 class="text-light display-5 text-start my-4 mt-4" id="fiapNext">RoboCup</h2>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/GeMwIFbHTvg" title="YouTube video"
+                        class="rounded"></iframe>
+                </div>
+                <p class="text-light lead text-start my-3 mb-4"> O campeonato chamado RoboCup é sediado pela FIAP e
+                    coordenada pelos professores Reinaldo Belizario e Nivaldo, tal campeonato tem o objetivo de explorar
+                    o trabalho em equipe, a competitividade e o conhecimento dos alunos do curso de Sistema de
+                    Informação. Cerca de 72 robôs participarão dessa competição, no mesmo modelo que a Copa do Mundo, ou
+                    seja, com fase de grupos seguidas de partidas eliminatórias. A partir das oitavas de final, a
+                    RoboCup será apresentada no próprio FIAP Next.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h2 class="text-light display-5 text-start my-4 mt-4">FIAP Next</h2>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/MwBEJiPyLwg" title="YouTube video"
+                        class="rounded"></iframe>
+                </div>
+                <p class="text-light lead text-start my-3 mb-4">O FIAP Next é um evento organizado pela própria FIAP,
+                    este evento é uma espécie de feira de tecnologia na qual alunos apresentam projetos desenvolvidos
+                    por eles mesmos ao longo do ano letivo. Dito isso, muitas empresas parceiras são convidadas a
+                    visitar este evento justamente com o objetivo de investir em futuros profissionais da área.</p>
+            </div>
+        </div>
+    </div>
+    <!-- fim seção apresentação fiap next e robocup  -->
+
+    <!-- seção formulário de contato  -->
+    <div class="container-fluid pt-5">
+        <div class="container col-sm-12 col-md-8">
+            <h2 class="display-6 text-center" id="cadastro">Contato</h2>
+            <form id="dados" name="dados" method="post" action="">
+                <div class="row my-4">
+                    <div class="col-md-4 my-3">
+                        <label for="usuario" class="form-label">Usuário:</label>
+                        <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ex: Seu Nome"
+                            required>
+                    </div>
+
+                    <div class="col-md-4 my-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" name="email" id="email" class="form-control"
+                            placeholder="Ex: seuemail@email.com" required>
+                    </div>
+
+                    <div class="col-md-4 my-3">
+                        <label for="tel" class="form-label">Telefone:</label>
+                        <input type="tel" id="tel" class="form-control" placeholder="Ex: (99) 9 9999-9999" required>
+                    </div>
+
+                    <div class="col-12 my-2 d-flex justify-content-end mt-4">
+                        <button type="submit" name="cadastro" id="cadastro" class="btn btn-dark fs-5">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- fim seção formulário de contato  -->
+
+    <!-- seção rodapé  -->
+    <div class="container-fluid bg-grey shadow-lg d-flex align-items-center justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <h4 class="lead fs-5 py-3 text-center fw-semibold">Fale conosco</h4>
+            <div class="row d-flex justify-content-evenly">
+                <span class="fs-5 col-4 mb-3"><i class="fa-solid fa-envelope"></i></span>
+                <span class="fs-5 col-4 mb-3"><i class="fa-solid fa-phone"></i></span>
+                <span class="fs-5 col-4 mb-3"><i class="fa-brands fa-instagram"></i></span>
+
+
+                <p class="lead fs-6 col-4">pts.pimentel@gmail.com</p>
+                <p class="lead fs-6 col-4">(11) 9 8690-4404</p>
+                <p class="lead fs-6 col-4">@ pe.pimentel</p>
+
+                <p class="lead fs-6 col-4">nicolas.ep23@gmail.com</p>
+                <p class="lead fs-6 col-4">(11) 9 1121-8181</p>
+                <p class="lead fs-6 col-4">@ nick_estrella23</p>
+
+                <p class="lead fs-6 col-4">guicardoso1@gmail.com</p>
+                <p class="lead fs-6 col-4">(11) 9 7240-3773</p>
+                <p class="lead fs-6 col-4">@ cardoso.gui_</p>
+            </div>
+            <p class="lead fs-6 pt-2">Produced by The Famous @ 2022</p>
+        </div>
+    </div>
+    <!-- fim seção rodapé  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
