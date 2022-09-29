@@ -2,6 +2,10 @@
     background-color: rgb(230, 230, 230);
 }
 
+.bg-dark-grey {
+    background-color: #2c3639;
+}
+
 textarea {
     height: 100px;
     resize: none;
